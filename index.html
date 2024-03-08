@@ -10,18 +10,118 @@
     <header>
         <a href="index.html "><img id="logo" src="assets/IMG/logo.png" alt="logo"></a>
 
-        <img id="menu-icon" src="assets/IMG/menu-svgrepo-com.svg" alt="menu">
+        <!-- <img id="menu-icon" src="assets/IMG/menu-svgrepo-com.svg" alt="menu">--> 
 
-        <!-- <nav id="menu">
+        <nav id="menu">
             <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li..>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JavaScript</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#form">Contato</a></li>
             </ul>
-        </nav> -->
+        </nav>
     </header>
 
-    <div id="carrossel">
+    <div id="hero">
+        <div id="cobertura">
+            <div>
+                <h1>TESTE</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore repudiandae quidem quo suscipit aspernatur esse eligendi deserunt enim accusamus, eum sequi nulla debitis neque odio voluptatem optio? Earum, libero? Commodi.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <section id="html" class="artigo">
+            <div class="text">
+             <p>
+                HTML, ou HyperText Markup Language, é a linguagem fundamental da web. Utilizado para criar e estruturar páginas na internet, o HTML é uma linguagem de marcação que define o conteúdo e a organização de um documento web. Desenvolvido por Tim Berners-Lee no início dos anos 90, o HTML desempenha um papel crucial na construção de páginas web acessíveis e interativas.
+            </p>
+            <p>
+                A estrutura básica de um documento HTML consiste em elementos, cada um com sua própria função e propósito. Os elementos HTML são marcados por tags, que são cercadas por colchetes angulares ("&lt;" e "&gt;"). Por exemplo, a tag "&lt;html&gt;" marca o início e o fim de um documento HTML, enquanto a tag "head" contém metadados, como o título da página e links para folhas de estilo CSS. A tag "&lt;body&gt;" engloba o conteúdo principal da página, como texto, imagens e elementos interativos.
+            </p>
+            </div>
+            <div class="img">
+                <img src="assets/IMG/html.png" alt="html">
+            </div>
+        </section>
+
+        <section id="css" class="artigo">
+
+            <div class="img">
+                <img src="assets/IMG/css.png" alt="html">
+            </div>
+            <div class="text">
+             <p>
+                CSS, ou Cascading Style Sheets, é uma linguagem de estilo utilizada para controlar a apresentação e o layout de páginas da web. Enquanto o HTML é responsável pela estrutura e conteúdo de uma página, o CSS complementa o HTML ao fornecer regras de estilo que definem como o conteúdo HTML deve ser exibido no navegador.
+            </p>
+            <p>
+                O CSS permite que os desenvolvedores definam estilos como cores, fontes, margens, espaçamentos, posicionamentos e animações para elementos HTML. Isso possibilita a criação de páginas da web visualmente atraentes e responsivas, além de garantir uma experiência de usuário consistente em diferentes dispositivos e navegadores.
+            </p>
+            </div>
+
+        </section>
+
+        <section id="js" class="artigo">
+            <div class="text">
+             <p>
+                JavaScript é uma linguagem de programação de alto nível, interpretada pelos navegadores, que permite adicionar interatividade e dinamismo às páginas da web. Desenvolvida originalmente pela Netscape, JavaScript é uma das tecnologias fundamentais da web moderna, juntamente com HTML e CSS.
+            </p>
+            <p>
+                JavaScript é uma linguagem versátil e poderosa, capaz de manipular o conteúdo HTML, responder a eventos do usuário, interagir com servidores web e muito mais. Aqui estão algumas das características e funcionalidades-chave do JavaScript:
+            </p>
+            <p>
+                Manipulação do DOM (Document Object Model): JavaScript permite acessar e modificar os elementos HTML de uma página em tempo de execução. Isso possibilita a criação de páginas dinâmicas e interativas, onde elementos podem ser adicionados, removidos ou alterados em resposta a ações do usuário.
+            </p>
+            </div>
+            <div class="img">
+                <img src="assets/IMG/js.png" alt="html">
+            </div>
+        </section>
+    </main>
+
+    <section id="sobre">
+        <div id="foto">
+            <img src="assets/IMG/user.png" alt="">
+        </div>
+
+        <div class="text">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt nihil voluptatum quod, inventore nesciunt eius voluptates necessitatibus tempora, odio aut veritatis iure incidunt ut nemo quos amet laboriosam numquam.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus accusantium adipisci recusandae ad aperiam provident maxime dolore esse reiciendis porro culpa, quasi amet nemo aliquam sed inventore ex, aspernatur tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iure facere cum reiciendis nostrum suscipit, cupiditate illum culpa. Aliquam doloremque placeat minus? Provident reprehenderit fuga voluptas mollitia dolorum, hic nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem velit numquam sapiente! Sint vel recusandae assumenda voluptates laboriosam rerum, inventore voluptate, possimus enim perferendis officia necessitatibus impedit dolorum cupiditate.
+            </p>
+        </div>
+    </section>
+
+    <section id="form">
+        <form action="get">
+            <div>
+                <label for="nome">
+                    Nome<input type="text">
+                </label>
+                <label for="sobrenome">
+                    Sobrenome<input type="text">
+                </label>
+            </div>
+            <label for="email">
+                E-mail<input type="text">
+            </label>
+            <label for="mensagem"><p>Mensagem:</p>
+                <textarea name="mensagem" id="mensagem" cols="40" rows="8" placeholder="Mensagem">
+
+                </textarea>
+            </label>
+        </form>
+    </section>
+
+    <footer>
+        <p>Site criado por Nicolas</p>
+    </footer>
+    
+
+   <!---<div id="carrossel">
         <div class="slide">
             <img src="assets/IMG/html.png" alt="slide1">
         </div>
@@ -31,7 +131,7 @@
         <div class="slide">
             <img src="assets/IMG/css.jpg" alt="slide3">
         </div>
-    </div>
+    </div> --> 
 
     <script src="assets/JS/scipt.js"></script>
 </body>
